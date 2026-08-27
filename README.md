@@ -151,21 +151,15 @@ Esto convierte el análisis en una herramienta inicial de **screening** para ide
 
 ## Reproducibilidad y dataset TomTom
 
-El dataset original `tomtom_traffic` supera el límite estándar de **100 MB por archivo de GitHub**.
+El dataset original `tomtom_traffic` supera el límite estándar de **100 MB por archivo de GitHub**, por lo que se encuentra alojado externamente en Google Drive.
 
-### Opción recomendada: Kaggle Dataset
-
-Publicarlo en Kaggle permitiría mantener ligero el repositorio y ofrecer una fuente pública, documentada y descargable.
-
-Posteriormente puedes añadir:
-
-```markdown
 ### Dataset original
 
-[Descargar dataset TomTom en Kaggle](URL_DEL_DATASET)
-```
+📂 **[Descargar dataset TomTom desde Google Drive](https://drive.google.com/drive/folders/1nwY6Tsq7G0x64PtDAIrs3O57PZaJm4Dn?usp=drive_link)**
 
-Otras alternativas son **Git LFS, Google Drive o OneDrive**.
+El repositorio conserva el dataset limpio y consolidado utilizado en el análisis, mientras que el archivo fuente completo puede descargarse desde el enlace anterior.
+
+Esta separación permite mantener el repositorio ligero sin perder reproducibilidad.
 
 ---
 
@@ -199,4 +193,3 @@ Movilidad-Urbana-y-Economia/
 **Pedro David Reyes Pérez**
 
 Proyecto de análisis de datos enfocado en transformar información urbana y económica en insights útiles para la toma de decisiones.
-
